@@ -1,0 +1,146 @@
+
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-card {
+  position: relative;
+  width: 450px;
+  padding: 45px 40px;
+
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+  border: 3px solid rgba(255,255,255,0.1);
+
+  text-align: center;
+}
+
+
+.close_X {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.1);
+  border: 2px solid white;
+  color: white;
+}
+
+
+.titulo-login {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+.Divisor {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 48px;
+
+  padding: 0 12px;
+  margin: 12px 0;
+
+  border: 2px solid white;
+  border-radius: 12px;
+
+  background: rgba(255,255,255,0.05);
+}
+
+.Imagenes {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.form {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+}
+
+
+.Boton {
+  width: 100%;
+  margin-top: 18px;
+
+  padding: 12px;
+
+  background: var(--red);
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.Boton:hover {
+  background: #a00f1a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 black;
+}
+
+
+.No_tienes {
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.Registrarse {
+  display: inline-block;
+  margin-top: 8px;
+
+  color: var(--red);
+  font-weight: bold;
+  font-size: 20px;
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+  .pie {
+    background: var(--surface);
+    border-top: var(--border) solid var(--black);
+    max-width: var(--maxw);
+    margin: 40px auto 0 auto;
+    padding: 16px clamp(12px,3vw,24px);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+.copy {
+    font-weight: 700;
+}

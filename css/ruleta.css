@@ -1,0 +1,92 @@
+.ruleta-box {
+    width: 700px;
+    margin: 150px auto;
+    padding: 30px;
+    background: rgba(0,0,0,0.85);
+    border: 3px solid #111;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+.flecha {
+    width: 0;
+    height: 0;
+    margin: 5px auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid yellow;  
+    border-bottom: 0;               
+}
+
+#ruletaWrapper {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ruletaCanvas {
+    width: 400px;
+    height: 400px;
+}
+
+input, select {
+    width: 70%;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+.boton {
+    width: 70%;
+    padding: 12px;
+    background: #c00;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #ff3333;
+}
+
+.tablero {
+    width: 520px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 6px;
+    position: relative;
+    padding: 10px;
+}
+
+.celda {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.celda.rojo { background: #c00; }
+.celda.negro { background: #000; color: white; }
+.celda.verde { background: #0a5; color: white; }
+
+#ficha {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    border: 3px solid #000;
+}
+
